@@ -1,0 +1,15 @@
+* {
+    background-color: bisque;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container-title {
+    display: flex;
+    justify-content: center;
+}
+
+/* Este es un ejemplo de especificidad y orden de contenedores para selectores */
+.container-title p, h1, a {
+    color: saddlebrown;
+    font-size: 11px;
+}
