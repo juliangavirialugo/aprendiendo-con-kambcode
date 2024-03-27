@@ -9,6 +9,7 @@
 }
 
 /* Este es un ejemplo de especificidad y orden de contenedores para selectores */
-.container-title h1 {
+.container-title p, h1, a {
     color: saddlebrown;
+    font-size: 11px;
 }
